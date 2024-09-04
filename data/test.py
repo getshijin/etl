@@ -1,2 +1,4 @@
-import sqlalchemy
-print(sqlalchemy.__version__)
+import pandas as pd
+
+a= pd.read_csv('data/orders.csv')
+print(a)
